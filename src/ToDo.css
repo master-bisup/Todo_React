@@ -1,0 +1,68 @@
+.btn-primary{
+    width: 4rem;
+}
+.btn-outline-danger{
+    margin: 1rem auto;
+}
+.row{
+    justify-content: center;
+    margin: 0;
+}
+.task{
+    width: 20rem;
+}
+.time{
+    width: 8rem;
+    display: flex;
+    align-items: center;
+}
+.keania-one-regular {
+    font-family: "Keania One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  } 
+  
+h1,.tl{
+    text-align: center;
+    color: transparent;
+    background-image: url(https://i.pinimg.com/736x/35/87/d5/3587d5888f837503b5af01bb9e47ebfc.jpg);
+    background-position: center;
+    background-clip:text ;
+    background-repeat: no-repeat ;
+}
+.tl{
+    margin: 0 0.5rem 0 0;
+    font-weight: 900;
+}
+li:nth-of-type(2n+1){
+    color: rgb(255, 231, 111);
+}
+li:nth-of-type(2n){
+    color: white;
+}
+li i{
+    margin: 0 0.5rem;
+}
+li i:hover{
+    color: red;
+}
+ul{
+    margin: 1rem auto;
+    width: fit-content;
+}
+.m{
+    width: fit-content;
+    scale: 0.85;
+}
+.marked {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.non{
+    display: none;
+}
+@media only screen and (max-width:460px){
+    .task{
+        margin-bottom: 1rem;
+    }
+}
