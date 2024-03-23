@@ -11,8 +11,11 @@
 .task{
     width: 20rem;
 }
+#time {
+    width: 3.7rem;
+}
 .time{
-    width: 8rem;
+    width: fit-content;
     display: flex;
     align-items: center;
 }
